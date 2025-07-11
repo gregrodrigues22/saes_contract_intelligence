@@ -11,6 +11,7 @@ with st.sidebar:
     st.image("assets/logo.png", use_container_width=True)
     st.page_link("app.py", label="Enviar Planilha", icon="📂")
     st.page_link("pages/analise.py", label="Análise", icon="📊")
+    st.page_link("pages/criacao.py", label="Referência", icon="✅")
 
 # --- CABEÇALHO COM DEGRADÊ ---
 st.markdown("""
